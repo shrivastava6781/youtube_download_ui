@@ -1,0 +1,50 @@
+.main-container{
+    /* background-color: green; */
+    width: 100%;
+    height: 89.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    padding: 0.7vw;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.text-container{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 40px;
+    margin: 5px;
+    border: none;
+    padding: 1vw 3vw;
+    box-shadow: 1px 1px 5px black;
+}
+.button{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(116, 115, 115);
+    margin: 5px;
+    padding: 1vw 3vw;
+    border-radius: 40px;
+    border: none;
+    padding: 1vw 3vw;
+    box-shadow: 1px 1px 5px black;
+    background-color: #EE3926;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.heading p{
+    font-family: "Ananda Black Personal Use";
+    font-size: 2vw;
+    color: rgb(245, 194, 82);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* <div className='heading'><img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/confetti.png" alt="confetti"/> <p>Your video is Downloaded</p></div> */
